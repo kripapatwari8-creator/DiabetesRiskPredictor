@@ -233,7 +233,7 @@ streamlit run app.py
 <img width="959" height="346" alt="image" src="https://github.com/user-attachments/assets/7285a487-5ac4-4d6a-81fb-62d0da4b7509" />
 
 4.Feature Importance Analysis
-<img width="959" height="367" alt="image" src="https://github.com/user-attachments/assets/5b08515f-3f5e-4acf-a6a4-9f7e45cc2aac" />
+
 <img width="959" height="500" alt="image" src="https://github.com/user-attachments/assets/6f745406-952d-4602-854c-72fb09c8ee6b" />
 <img width="959" height="500" alt="image" src="https://github.com/user-attachments/assets/312451b5-6f6c-4d05-9fb9-7c8622a88428" />
 <img width="634" height="473" alt="image" src="https://github.com/user-attachments/assets/834a14e7-3508-4bc1-aff5-9e902a6c9d38" />
