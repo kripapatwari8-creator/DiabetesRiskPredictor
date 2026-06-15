@@ -233,7 +233,6 @@ streamlit run app.py
 <img width="959" height="346" alt="image" src="https://github.com/user-attachments/assets/7285a487-5ac4-4d6a-81fb-62d0da4b7509" />
 
 4.Feature Importance Analysis
-
 <img width="959" height="500" alt="image" src="https://github.com/user-attachments/assets/6f745406-952d-4602-854c-72fb09c8ee6b" />
 <img width="959" height="500" alt="image" src="https://github.com/user-attachments/assets/312451b5-6f6c-4d05-9fb9-7c8622a88428" />
 <img width="634" height="473" alt="image" src="https://github.com/user-attachments/assets/834a14e7-3508-4bc1-aff5-9e902a6c9d38" />
@@ -241,10 +240,10 @@ streamlit run app.py
 
 5.Model Comparison Dashboard
 <img width="953" height="495" alt="image" src="https://github.com/user-attachments/assets/1a751e3a-27dc-49cc-bac3-cad9ccc4c9f9" />
-
 <img width="959" height="503" alt="image" src="https://github.com/user-attachments/assets/7359ee27-9d56-4355-9978-0c5598890af7" />
 
 6.PDF Report
+
 <img width="391" height="500" alt="image" src="https://github.com/user-attachments/assets/eeb155d0-bbf9-4a91-be02-144d58e926d9" />
 <img width="392" height="503" alt="image" src="https://github.com/user-attachments/assets/bc2adfa7-80c6-40a9-bab4-66a7317fb75d" />
 <img width="394" height="244" alt="image" src="https://github.com/user-attachments/assets/34faf59c-3af7-43d1-bcea-4e66c57dc811" />
