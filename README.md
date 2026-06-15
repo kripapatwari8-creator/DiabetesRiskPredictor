@@ -224,7 +224,6 @@ streamlit run app.py
 <img width="959" height="465" alt="Screenshot 2026-06-15 111733" src="https://github.com/user-attachments/assets/e37c739a-ec5f-4145-8920-b24998baa047" />
 
 2.Prediction Result
-<img width="960" height="600" alt="image" src="https://github.com/user-attachments/assets/f64685ac-a6a3-48fc-b078-41d691ef59ac" />
 <img width="958" height="431" alt="image" src="https://github.com/user-attachments/assets/f04924cd-326b-4a75-9d2e-a6a6fe87ee5c" />
 <img width="958" height="497" alt="image" src="https://github.com/user-attachments/assets/f10fa6fb-20cd-4d58-936b-0a303599eaeb" />
 <img width="953" height="460" alt="image" src="https://github.com/user-attachments/assets/c1c2f79b-0938-43d6-a63a-391e1bbb4ac8" />
@@ -239,10 +238,11 @@ streamlit run app.py
 <img width="959" height="500" alt="image" src="https://github.com/user-attachments/assets/6f745406-952d-4602-854c-72fb09c8ee6b" />
 <img width="959" height="500" alt="image" src="https://github.com/user-attachments/assets/312451b5-6f6c-4d05-9fb9-7c8622a88428" />
 <img width="634" height="473" alt="image" src="https://github.com/user-attachments/assets/834a14e7-3508-4bc1-aff5-9e902a6c9d38" />
+<img width="871" height="356" alt="image" src="https://github.com/user-attachments/assets/81c8bac0-ba5a-4d4a-abc3-a4c565f8af4d" />
 
 
 5.Model Comparison Dashboard
-<img width="871" height="356" alt="image" src="https://github.com/user-attachments/assets/81c8bac0-ba5a-4d4a-abc3-a4c565f8af4d" />
+<img width="960" height="600" alt="image" src="https://github.com/user-attachments/assets/f64685ac-a6a3-48fc-b078-41d691ef59ac" />
 <img width="959" height="503" alt="image" src="https://github.com/user-attachments/assets/7359ee27-9d56-4355-9978-0c5598890af7" />
 
 
