@@ -240,7 +240,8 @@ streamlit run app.py
 <img width="871" height="356" alt="image" src="https://github.com/user-attachments/assets/81c8bac0-ba5a-4d4a-abc3-a4c565f8af4d" />
 
 5.Model Comparison Dashboard
-<img width="960" height="600" alt="image" src="https://github.com/user-attachments/assets/f64685ac-a6a3-48fc-b078-41d691ef59ac" />
+<img width="953" height="495" alt="image" src="https://github.com/user-attachments/assets/1a751e3a-27dc-49cc-bac3-cad9ccc4c9f9" />
+
 <img width="959" height="503" alt="image" src="https://github.com/user-attachments/assets/7359ee27-9d56-4355-9978-0c5598890af7" />
 
 6.PDF Report
