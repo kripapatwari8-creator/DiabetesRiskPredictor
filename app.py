@@ -12,9 +12,9 @@ import seaborn as sns
 from recommendation import get_recommendation
 from report_generator import create_report
 
-# -------------------------
+
 # PAGE CONFIG
-# -------------------------
+
 
 st.set_page_config(
     page_title="Diabetes Risk Predictor",
@@ -22,9 +22,9 @@ st.set_page_config(
     layout="wide"
 )
 
-# -------------------------
+
 # CUSTOM CSS
-# -------------------------
+
 
 st.markdown("""
 <style>
@@ -52,9 +52,9 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-# -------------------------
+
 # LOAD MODEL
-# -------------------------
+
 
 model = joblib.load("models/best_model.pkl")
 scaler = joblib.load("models/scaler.pkl")
@@ -65,9 +65,9 @@ accuracies = joblib.load(
     "models/accuracies.pkl"
 )
 
-# -------------------------
+
 # HEADER
-# -------------------------
+
 
 st.markdown(
 """
@@ -84,15 +84,15 @@ unsafe_allow_html=True
 
 st.markdown("---")
 
-# -------------------------
+
 # PATIENT DETAILS
-# -------------------------
+
 
 name = st.text_input("Patient Name")
 
-# -------------------------
+
 # HEALTH INFO
-# -------------------------
+
 
 with st.expander("📖 Health Parameter Reference Guide"):
 
@@ -178,9 +178,9 @@ Reference Guide
 | 35 - 50 | Moderate Risk Group |
 | >50 | Higher Risk Group |
 """)
-# -------------------------
+
 # INPUTS
-# -------------------------
+
 
 col1, col2 = st.columns(2)
 
@@ -244,9 +244,9 @@ with col2:
         max_value=120
     )
 
-# -------------------------
+
 # BMI CATEGORY
-# -------------------------
+
 
 if bmi > 0:
 
@@ -321,9 +321,8 @@ if pedigree > 0:
 
     else:
         st.error("🚨 High Genetic Risk")
-# -------------------------
+
 # PREDICTION
-# -------------------------
 
 if st.button("🔍 Predict Diabetes Risk"):
 
@@ -364,10 +363,9 @@ if st.button("🔍 Predict Diabetes Risk"):
         result
     )
 
-    # ---------------------
+    
     # Gauge Chart
-    # ---------------------
-
+    
     fig_gauge = go.Figure(go.Indicator(
         mode="gauge+number",
         value=risk,
@@ -387,9 +385,9 @@ if st.button("🔍 Predict Diabetes Risk"):
         use_container_width=True
     )
 
-    # ---------------------
+    
     # Recommendations
-    # ---------------------
+    
 
     st.subheader("📋 Health Recommendations")
 
@@ -397,9 +395,9 @@ if st.button("🔍 Predict Diabetes Risk"):
         get_recommendation(risk)
     )
 
-    # ---------------------
+   
     # AI Interpretation
-    # ---------------------
+    
 
     st.subheader("🧠 AI Risk Interpretation")
 
@@ -427,9 +425,9 @@ Patient exhibits high diabetes risk.
 Medical consultation and further diagnostic testing are strongly advised.
 """)
 
-    # ---------------------
+   
     # PDF REPORT
-    # ---------------------
+    
 
     if st.button("📄 Generate PDF Report"):
 
@@ -443,9 +441,9 @@ Medical consultation and further diagnostic testing are strongly advised.
             f"Report Generated: {pdf_file}"
         )
 
-# ======================================================
+
 # DASHBOARD
-# ======================================================
+
 
 st.markdown("---")
 st.header("📊 Dataset Analytics Dashboard")
@@ -479,9 +477,9 @@ st.plotly_chart(
 
 df = pd.read_csv("dataset/diabetes.csv")
 
-# -------------------------
+
 # METRICS
-# -------------------------
+
 
 m1, m2, m3, m4 = st.columns(4)
 
@@ -505,9 +503,9 @@ m4.metric(
     round(df["Age"].mean(), 2)
 )
 
-# -------------------------
+
 # PIE CHART
-# -------------------------
+
 
 st.subheader("Outcome Distribution")
 
@@ -524,9 +522,9 @@ st.plotly_chart(
     use_container_width=True
 )
 
-# -------------------------
+
 # HISTOGRAMS
-# -------------------------
+
 
 colA, colB = st.columns(2)
 
@@ -558,9 +556,9 @@ with colB:
         use_container_width=True
     )
 
-# -------------------------
+
 # AGE DISTRIBUTION
-# -------------------------
+
 
 fig_age = px.histogram(
     df,
@@ -574,9 +572,9 @@ st.plotly_chart(
     use_container_width=True
 )
 
-# -------------------------
+
 # SCATTER PLOT
-# -------------------------
+
 
 st.subheader("Glucose vs BMI Analysis")
 
@@ -593,9 +591,9 @@ st.plotly_chart(
     use_container_width=True
 )
 
-# -------------------------
+
 # HEATMAP
-# -------------------------
+
 
 st.subheader("Correlation Heatmap")
 
@@ -612,9 +610,9 @@ sns.heatmap(
 
 st.pyplot(fig)
 
-# -------------------------
+
 # RISK FACTORS
-# -------------------------
+
 
 st.subheader("Most Important Risk Factors")
 
@@ -672,9 +670,9 @@ except Exception:
         "Feature importance unavailable."
     )
 
-# -------------------------
+
 # DATASET TABLE
-# -------------------------
+
 
 st.subheader("Dataset Preview")
 
@@ -683,9 +681,8 @@ st.dataframe(
     use_container_width=True
 )
 
-# -------------------------
+
 # FOOTER
-# -------------------------
 
 st.markdown("---")
 
